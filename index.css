@@ -61,6 +61,9 @@ header {
     display: flex;
     position: relative;
     transition: color 200ms, background-color 200ms;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 main {
@@ -94,6 +97,13 @@ main {
     font-size: 0.9rem;
     font-weight: 400;
     white-space: nowrap;
+}
+
+.button svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.7rem;
+    margin: auto;
 }
 
 .header-buttons {
