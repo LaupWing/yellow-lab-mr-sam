@@ -46,12 +46,48 @@ header {
 
 .button {
     background-color: var(--brown-sand);
-    color: var(--creme);
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
+    color: var(--blue-dark);
+    text-decoration: none;
+    border-radius: 10px;
     text-transform: uppercase;
-    font-weight: 700;
-    cursor: pointer;
+    font-size: 0.9rem;
+    display: flex;
+    /* padding: 1rem; */
+    position: relative;
+    transition: color 200ms, background-color 200ms;
+}
+
+.button:hover {
+    background-color: var(--blue-dark);
+    color: var(--brown-sand);
+}
+
+.button:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    pointer-events: none;
+    opacity: 0;
+    transition: background-color 150ms, opacity 150ms, inset 200ms;
+}
+
+.button:hover:after {
+    opacity: 1;
+    inset: 0.15rem;
+}
+
+.button span {
+    padding: 0.65rem 1.95rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 1rem;
 }
 
 /* Logos */
