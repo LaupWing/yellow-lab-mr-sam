@@ -256,10 +256,11 @@ main {
     align-items: center;
     position: relative;
     justify-content: center;
-    gap: 1rem;
+    gap: 0.4rem;
 }
 
-#gallery .image-1 img {
+#gallery .image-1 img,
+#gallery .image-2 img {
     aspect-ratio: 1/1;
     width: 100%;
 }
