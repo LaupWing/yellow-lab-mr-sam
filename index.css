@@ -158,3 +158,9 @@ main {
     );
     height: 20rem;
 }
+
+#hero .content {
+    position: absolute;
+    width: 100%;
+    color: white;
+}
