@@ -44,6 +44,16 @@ header {
     padding-top: 2rem;
 }
 
+.button {
+    background-color: var(--brown-sand);
+    color: var(--creme);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
 /* Logos */
 .logo {
     width: 175px;
