@@ -48,7 +48,7 @@ header {
     background-color: var(--brown-sand);
     color: var(--blue-dark);
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 12px;
     text-transform: uppercase;
     font-size: 0.9rem;
     display: flex;
@@ -74,11 +74,12 @@ header {
 
 .button:hover:after {
     opacity: 1;
-    inset: 0.15rem;
+    inset: 0.3rem 0.2rem;
+    border-color: var(--brown-sand);
 }
 
 .button span {
-    padding: 0.65rem 1.95rem;
+    padding: 0.85rem 1.95rem;
     font-size: 0.9rem;
     font-weight: 400;
     white-space: nowrap;
