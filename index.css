@@ -241,3 +241,36 @@ main {
     z-index: 50;
     height: 80%;
 }
+
+#gallery {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+#gallery .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#gallery .image-1 img {
+    aspect-ratio: 1/1;
+    width: 100%;
+}
+
+#gallery .overlay {
+    position: absolute;
+    height: 100%;
+    border: var(--brown-sand) 1px solid;
+    margin: auto;
+    top: 0;
+    z-index: 1000;
+    border-top: none;
+    border-bottom: none;
+}
