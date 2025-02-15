@@ -46,12 +46,13 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-
-    padding-top: 2rem;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    /* padding: 2rem 0; */
+    padding: 1rem 0;
     position: fixed;
     top: 0;
     z-index: 10000;
-    background-color: rgba(255, 255, 255, 1);
 }
 header .content {
     grid-template-columns: repeat(3, 1fr);
