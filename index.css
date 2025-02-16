@@ -307,3 +307,26 @@ main {
     height: 50%;
     pointer-events: none;
 }
+
+#about {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+    color: var(--brown-sand);
+    border: 1px solid var(--brown-sand);
+    border-top: none;
+    border-bottom: none;
+}
+
+#about .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    max-width: 700px;
+    line-height: 1.5rem;
+    text-align: center;
+}
