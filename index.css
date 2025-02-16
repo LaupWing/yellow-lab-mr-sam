@@ -20,7 +20,9 @@ body {
     background-size: 62.5rem;
     background-position: center;
 }
-
+img {
+    object-fit: cover;
+}
 .serif {
     font-family: "Noto Serif", serif;
 }
