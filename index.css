@@ -356,3 +356,18 @@ main {
     );
     top: 0;
 }
+
+.bottom-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 20rem;
+    pointer-events: none;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        var(--blue-dark)
+    );
+    bottom: 0;
+}
