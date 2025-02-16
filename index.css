@@ -266,6 +266,10 @@ main {
     gap: 0.4rem;
 }
 
+#gallery img {
+    transition: 0.2s all;
+}
+
 #gallery .image-1 img,
 #gallery .image-2 img {
     aspect-ratio: 1/1;
