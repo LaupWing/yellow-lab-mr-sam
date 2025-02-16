@@ -395,3 +395,13 @@ main {
     aspect-ratio: 1/1;
     width: 100%;
 }
+
+#gallery-2 .container-overlay {
+    position: absolute;
+    /* inset: 0; */
+    top: 0;
+    bottom: 0;
+    margin: 5rem 0;
+    border: var(--brown-sand) 5px solid;
+    border-radius: 30px;
+}
