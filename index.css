@@ -371,3 +371,25 @@ main {
     );
     bottom: 0;
 }
+
+#gallery-2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+#gallery-2 .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+
+#gallery-2 .image-1 img,
+#gallery-2 .image-2 img {
+    aspect-ratio: 1/1;
+    width: 100%;
+}
