@@ -53,13 +53,17 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    /* padding: 2rem 0; */
-    padding: 1rem 0;
+    transition: 0.25s;
+    padding: 2rem 0;
     position: fixed;
     top: 0;
     z-index: 10000;
+}
+
+body.scrolled header {
+    padding: 1rem 0;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 header .content {
     grid-template-columns: repeat(3, 1fr);
