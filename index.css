@@ -23,6 +23,11 @@ body {
 img {
     object-fit: cover;
 }
+
+a,
+a img {
+    cursor: pointer;
+}
 .serif {
     font-family: "Noto Serif", serif;
 }
@@ -284,6 +289,7 @@ main {
     z-index: 1000;
     border-top: none;
     border-bottom: none;
+    pointer-events: none;
 }
 #gallery .button {
     position: absolute;
