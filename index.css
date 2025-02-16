@@ -283,3 +283,10 @@ main {
     border-top: none;
     border-bottom: none;
 }
+#gallery .button {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    margin-bottom: 2rem;
+    z-index: 1000;
+}
