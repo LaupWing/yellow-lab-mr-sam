@@ -468,6 +468,21 @@ main.menu #card .card {
     background-size: 62.5rem;
     border: 2px solid rgba(196, 149, 93, 0.45);
     border-radius: 15px;
-    padding: 20px 50px;
+    padding: 80px 40px;
     box-sizing: border-box;
+}
+
+main.menu #card .card .types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+main.menu #card .card .types span {
+    width: 15px;
+    height: 5px;
+    border-radius: 15px;
 }
