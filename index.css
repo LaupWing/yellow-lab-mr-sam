@@ -486,3 +486,7 @@ main.menu #card .card .types span {
     height: 5px;
     border-radius: 15px;
 }
+
+main.menu #card .card main {
+    margin-top: 3rem;
+}
