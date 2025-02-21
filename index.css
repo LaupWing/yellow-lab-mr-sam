@@ -489,4 +489,14 @@ main.menu #card .card .types span {
 
 main.menu #card .card main {
     margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+main.menu #card .card main h2 {
+    font-family: "Noto Serif", serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
 }
