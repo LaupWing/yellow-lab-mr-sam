@@ -464,6 +464,8 @@ main.menu #card {
 }
 
 main.menu #card .card {
+    background-image: url("images/menu/pattern-main.svg");
+    background-size: 62.5rem;
     border: 2px solid rgba(196, 149, 93, 0.45);
     border-radius: 15px;
     padding: 20px 50px;
