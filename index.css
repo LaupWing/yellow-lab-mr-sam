@@ -426,5 +426,46 @@ main.menu #hero {
     background-position: 0 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    /* bac */
+    box-sizing: border-box;
+}
+
+main.menu #hero::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.75),
+        rgba(0, 0, 0, 0)
+    );
+    height: 20rem;
+    top: 0;
+}
+
+main.menu #hero::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.6)
+    );
+    height: 80%;
+}
+
+main.menu #card {
+    background-color: var(--creme--light);
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+main.menu #card .card {
+    border: 2px solid rgba(196, 149, 93, 0.45);
+    border-radius: 15px;
+    padding: 20px 50px;
     box-sizing: border-box;
 }
