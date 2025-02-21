@@ -500,3 +500,9 @@ main.menu #card .card main .dishes h2 {
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
+
+main.menu #card .card main .dishes .name {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
