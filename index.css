@@ -493,6 +493,7 @@ main.menu #card .card main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: start;
+    gap: 8rem 0;
 }
 
 main.menu #card .card main .dishes h2 {
