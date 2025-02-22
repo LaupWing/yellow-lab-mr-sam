@@ -460,6 +460,7 @@ main.menu #card {
     background-color: var(--creme--light);
     display: flex;
     flex-direction: column;
+    align-items: start;
     padding: 100px 0;
 }
 
@@ -491,6 +492,7 @@ main.menu #card .card main {
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: start;
 }
 
 main.menu #card .card main .dishes h2 {
